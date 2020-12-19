@@ -1,2 +1,38 @@
 
 .DS_Store
+# Gradle & Avro
+.project
+.settings
+.classpath
+.gradle
+.idea
+*.iml
+*.iws
+*.ipr
+
+# Pegasus & Avro
+**/src/mainGenerated*
+**/src/testGenerated*
+metadata-events/mxe-registration/src/main/resources/**/*.avsc
+
+# Java
+.java-version
+
+# Python
+.venv
+venv/
+env.bak/
+venv.bak/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+MANIFEST
+
+# Added by mp-maker
+**/build
+/config
+*/i18n
+/out
+
+# Mac OS
+**/.DS_Store
